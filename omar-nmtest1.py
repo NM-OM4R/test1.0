@@ -34,6 +34,13 @@ class Xbox:
     def apagar(self):
         self.__encendido = False
     
+    def info(self):
+        print('modelo:', self.__modelo)
+        print('almacenamiento:', self.__almacenamiento)
+        print('color:', self.__color)
+        print('precio:', self.__precio)
+        print('encendido', self.__encendido)
+        
     
     
     
