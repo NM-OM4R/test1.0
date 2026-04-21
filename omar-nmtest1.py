@@ -40,7 +40,13 @@ class Xbox:
         print('color:', self.__color)
         print('precio:', self.__precio)
         print('encendido', self.__encendido)
-        
+
+xbox1 = xbox('series s', '512GB', 'Blanco', '8000', False)
+xbox1.info()
+xbox1.encender()
+print('despues de encender:')
+xbox1.info()
+
     
     
     
