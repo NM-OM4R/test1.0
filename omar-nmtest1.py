@@ -17,5 +17,18 @@ class Xbox:
     def get_encendido(self):
         return self.__encendido
     
+    def set_modelo(self, modelo):
+        self.__modelo = modelo
+    def set_almacenamiento(self, almacenamiento):
+        self.__almacenamiento = almacenamiento
+    def set_color(self, color):
+        self.__color = color
+    def set_precio(self, precio):
+        self.__precio = precio
+    def set_encendido(self, encendido):
+        self.__encendido = encendido
+    
+    
+    
     
 
