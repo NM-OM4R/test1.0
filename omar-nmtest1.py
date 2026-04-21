@@ -27,6 +27,9 @@ class Xbox:
         self.__precio = precio
     def set_encendido(self, encendido):
         self.__encendido = encendido
+
+    def encender(self):
+        self.__encendido = True
     
     
     
